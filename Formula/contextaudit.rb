@@ -1,14 +1,14 @@
 class Contextaudit < Formula
   desc "Measures the real value of your AI coding-assistant context files (AGENTS.md, CLAUDE.md) by running the assistants in isolated containers."
   homepage "https://github.com/280Zo/contextaudit"
-  version "0.1.2"
+  version "0.1.3"
   if OS.mac? && Hardware::CPU.arm?
-    url "https://github.com/280Zo/contextaudit/releases/download/v0.1.2/contextaudit-aarch64-apple-darwin.tar.xz"
-    sha256 "8822c14fdbc932b09fcc3a821eaffaed1f03fb918cb0c0f6571a74339e04fac9"
+    url "https://github.com/280Zo/contextaudit/releases/download/v0.1.3/contextaudit-aarch64-apple-darwin.tar.xz"
+    sha256 "0644b9ed00539566ad44d5eb12ae20c2965fba26d83206305a35815c432330c1"
   end
   if OS.linux? && Hardware::CPU.intel?
-    url "https://github.com/280Zo/contextaudit/releases/download/v0.1.2/contextaudit-x86_64-unknown-linux-gnu.tar.xz"
-    sha256 "599f2bb2e97e4cc2d9c5873eec3d6e6124058c2e1f8a3fc8af1a780c320d210f"
+    url "https://github.com/280Zo/contextaudit/releases/download/v0.1.3/contextaudit-x86_64-unknown-linux-gnu.tar.xz"
+    sha256 "2999e90a3bda02bdd2f579552d2b61b10da1cd33163426cff275ab1ad2e3ff80"
   end
   license "MIT"
 
